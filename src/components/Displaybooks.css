@@ -1,0 +1,28 @@
+.book-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.card {
+    width: 18rem;
+    height: 28rem; /* Set fixed height for each card */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 12rem; /* Fixed height for image */
+    object-fit: cover; /* Ensures image fills the space without distortion */
+  }
+  
+  .card-body {
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
